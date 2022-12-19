@@ -75,7 +75,7 @@ export default function Home() {
     try {
       const signer = await getProviderOrSigner(true);
       const daoContract = getDaoContractInstance(signer);
-      const txn = await daoContract.createProposal(fakeNftTokenId);
+      const txn = await daoContract.createPurposal(fakeNftTokenId);
       setLoading(true);
       await txn.wait();
       await getNumProposalsInDAO();
