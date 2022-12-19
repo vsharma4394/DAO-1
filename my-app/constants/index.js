@@ -1,7 +1,7 @@
 export const CRYPTODEVS_DAO_CONTRACT_ADDRESS =
-  "0x8E2b157fde728163dCdeb29aCd17Adae9b24Be13";
+  "0x8C68B3601C06525620f34d6E96172Cd0076e1dA2";
 export const CRYPTODEVS_NFT_CONTRACT_ADDRESS =
-  "0x426d31C5A1DB423f6fC9E0a27639e748d21C6937";
+  "0x5481Cf21116CC02A1DCBf879465a97Cb817f2E57";
 
 export const CRYPTODEVS_DAO_ABI = [
   {
@@ -581,19 +581,6 @@ export const CRYPTODEVS_NFT_ABI = [
       },
     ],
     name: "setApprovalForAll",
-    outputs: [],
-    stateMutability: "nonpayable",
-    type: "function",
-  },
-  {
-    inputs: [
-      {
-        internalType: "bool",
-        name: "val",
-        type: "bool",
-      },
-    ],
-    name: "setPaused",
     outputs: [],
     stateMutability: "nonpayable",
     type: "function",

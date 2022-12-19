@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 contract FakeNFTMarketplace {
     mapping(uint256 => address) public tokens;
-    uint256 nftPrice = 0.1 ether;
+    uint256 nftPrice = 0.01 ether;
 
     function purchase(uint256 _tokenId) external payable {
         require(msg.value == nftPrice, "This nft costs 0.1 eth");
